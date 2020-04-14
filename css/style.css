@@ -177,3 +177,115 @@ section {
     display: block;
     margin-bottom: 15px;
 }
+
+/*featured section*/
+.sec-heading{
+    position: relative;
+    margin-bottom: 80px;
+}
+.sec-title{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.product-item{
+    position: relative;
+}
+.product-item .product-thumb{
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+.action-links{
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 300ms ease;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+.action-links .icon{
+    background-color: #ffffff;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+.action-links .icon:hover{
+    background-color: #ff5353;
+    color: #fff;
+}
+.product-content{
+    text-align: center;
+}
+.product-item .product-content .product-name{
+    font-size: 14px;
+    font-weight: 400;
+    color: #888;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.product-item .product-content .product-name a{
+    color: #888;
+}
+.product-item .product-content .product-name a:hover{
+    color: #ff5353;
+}
+.ratings a{
+    display: inline-block;
+    font-size: 13px;
+    color: #ff5353;
+}
+.product-item .product-content .price{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom:0;
+}
+.product-item:hover .action-links{
+    opacity: 1;
+    visibility: visible;
+}
+/*banner02*/
+.banner02{
+    background: #e9e1d8;
+}
+.banner02 .banner-content h1{
+    font-family: 'Dancing Script',cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+.banner02 .banner-content h4{
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 54px;
+}
+
+/*features*/
+.featureBox{
+    border: 1px solid #ebeef0;
+    position: relative;
+    padding: 25px;
+    text-align: center;
+}
+.featureBox .feat-icon{
+    max-width: 56px;
+    margin: 0 auto 27px;
+}
+.featureBox h5 {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.featureBox p{
+    margin-bottom: 0;
+    color: #888888;
+    line-height: 18px;
+}
